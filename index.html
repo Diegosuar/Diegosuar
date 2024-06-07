@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Diegosuar</title>
 
-    <!-- box icons -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diegosuar</title>
 
-    <!-- custom css -->
-    <link rel="stylesheet" href=estilos.css>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  </head>
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-  <body>
-    <!-- header design -->
-    <header class="header">
-      <a href="#" class="logo">Diegosuar</a>
-      <i class='bx bx-menu'id="menu-icon"></i>
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Portafolio">Portafolio</a>
-        <a href="#Contacto">Contact</a>
-      </nav>
-    </header>
+  <!-- custom css -->
+  <link rel="stylesheet" href=estilos.css>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
 
-    <!-- home section design -->
+<body>
+  <!-- header design -->
+  <header class="header">
+    <a href="#" class="logo">Diegosuar</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Portafolio">Portafolio</a>
+      <a href="#Contacto">Contact</a>
+    </nav>
+  </header>
+
+  <!-- home section design -->
   <section class="home" id="home">
     <div class="home-content">
       <h3>Hello,It's Me</h3>
@@ -36,106 +37,154 @@
       <h3>And I'm a <span>Developer</span></h3>
       <p>Computer Engineering Student at the University of La Sabana</p>
       <div class="social-media">
-        <a href="#"><i class='bx bxl-linkedin' ></i></a>
-        <a href="#"><i class='bx bxl-github' ></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-github'></i></a>
         <a href="#"><i class='bx bxl-instagram'></i></a>
-        <a href="#"><i class='bx bxl-facebook' ></i></a>
+        <a href="#"><i class='bx bxl-facebook'></i></a>
       </div>
       <a href="#" class="btn">Download CV</a>
     </div>
-    <div class="home-img"> 
-      <img src="home4.png" alt="" >
+    <div class="home-img">
+      <img src="home4.png" alt="">
     </div>
   </section>
 
-    <!-- about section design -->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="home3.png" alt="">
-      </div>
-      <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>Developer</h3>
-        <p>Computer engineering student with five semesters of experience in software development.
-           I have skills in Python, Java, HTML5, and CSS, and I am knowledgeable in software architecture and design, 
-           using tools like Spring Boot, Docker, and RabbitMQ.
-           I also have experience with database management using MySQL, SQL Server, and Oracle Cloud Infrastructure (OCI).</p>
-      </div>
-    </section>
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="home3.png" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Developer</h3>
+      <p>Computer engineering student with five semesters of experience in software development.
+        I have skills in Python, Java, HTML5, and CSS, and I am knowledgeable in software architecture and design,
+        using tools like Spring Boot, Docker, and RabbitMQ.
+        I also have experience with database management using MySQL, SQL Server, and Oracle Cloud Infrastructure (OCI).
+      </p>
+    </div>
+  </section>
 
-    <!-- skills section design -->
-<section class="skills" id="skills">
-  <h2 class="heading">My <span>Skills</span></h2>
-
-  <div class="Technical-bar">
-      <div class="bar"> 
-          <i style="color:#c95d2e" class='bx bxl-html5'></i>
+  <!-- skills section design -->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="container1" id="skills">
+      <h1 class="heading"> Technical skills</h1>
+      <div class="Technical-bars">
+        <div class="bar"><i style="color: tomato" class='bx bxl-html5'></i>
           <div class="info">
-              <span>HTML</span>
+            <span>HTML</span>
           </div>
           <div class="progress-line html">
-              <span></span>  
+            <span data-percentage="90%"></span>
           </div>
-      </div>
+        </div>
 
-      <div class="bar"> 
-          <i class='bx bxl-css3'></i>
+        <div class="bar"><i style="color: #264de4" class='bx bxl-css3'></i>
           <div class="info">
-              <span>CSS</span>
+            <span>CSS</span>
           </div>
           <div class="progress-line css">
-              <span></span>
+            <span data-percentage="60%"></span>
           </div>
-      </div>
+        </div>
 
-      <div class="bar"> 
-          <i class='bx bxl-python'></i>
+        <div class="bar">
+          <i style="color: #c32ec9" class='bx bxl-python'></i>
           <div class="info">
-              <span>PYTHON</span>
+            <span>PYTHON</span>
           </div>
           <div class="progress-line python">
-              <span></span>
+            <span data-percentage="80%"></span>
           </div>
-      </div>
+        </div>
 
-      <div class="bar"> 
-          <i class='bx bxl-java'></i>
+
+        <div class="bar"><i style="color: #f89820" class='bx bxl-java'></i>
           <div class="info">
-              <span>JAVA</span>
+            <span>JAVA</span>
           </div>
           <div class="progress-line java">
-              <span></span>
+            <span data-percentage="70%"></span>
           </div>
-      </div>
+        </div>
 
-      <div class="bar"> 
-          <i class='bx bxl-docker'></i>
+
+        <div class="bar">
+          <i style="color: #69BCBC" class='bx bxl-docker'></i>
           <div class="info">
-              <span>DOCKER</span>
+            <span>DOCKER</span>
           </div>
           <div class="progress-line docker">
-              <span></span>
+            <span data-percentage="50%"></span>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container2" id="skills">
+      <h1 class="heading">Professional skills</h1>
+      <div class="radial-bars">
+
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">80%</div>
+          <div class="text">Ingenuity</div>
+        </div>
+
+
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">90%</div>
+          <div class="text">Assertive communication</div>
+        </div>
+
+
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">80%</div>
+          <div class="text">Problem Solving</div>
+        </div>
+
+
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">80%</div>
+          <div class="text">Teamwork||Good leader</div>
+        </div>
 
       </div>
-  </div>
-</section>
+    </div>
+  </section>
 
-    </section>
+  </section>
 
-    <!-- portfolio section design -->
+  <!-- portfolio section design -->
 
-    <!-- contact section design -->
+  <!-- contact section design -->
 
-    <!-- footer design -->
+  <!-- footer design -->
 
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- typed js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-    <!-- custom js -->
-    <script src="js/script.js"></script>
-  </body>
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
