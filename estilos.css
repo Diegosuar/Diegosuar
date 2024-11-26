@@ -196,5 +196,122 @@ span {
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+  margin-top: -10px;
 }
 
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  background-color: #0A192F;
+  color: white;
+}
+
+.contact-img {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+}
+
+.contact-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #64FFDA;
+}
+
+.contact-content {
+  flex: 2;
+  padding: 20px;
+  max-width: 600px; 
+}
+
+
+.contact-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+}
+
+.contact-content p {
+  font-size: 1.5rem;
+  line-height: 1.8; 
+  margin-bottom: 20px;
+  color: #CCCCCC;
+}
+
+.contact-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.contact-content ul li {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.contact-content ul li strong {
+  color: #64FFDA;
+}
+
+.contact-content div {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Alineación inicial */
+}
+
+.contact-content div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 3px solid #64FFDA;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agregamos una transición adicional */
+}
+
+.contact-content div img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-img {
+    margin-bottom: 20px;
+  }
+
+  .contact-content div {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-content .heading {
+    font-size: 2rem; 
+  }
+
+  .contact-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-content p,
+  .contact-content ul li {
+    font-size: 2rem; 
+  }
+
+  .contact-content div img {
+    width: 120px; 
+    height: 120px;
+  }
+}
