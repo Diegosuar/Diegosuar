@@ -1,7 +1,4 @@
-With six semesters of experience in software development, I specialize in delivering innovative solutions and managing end-to-end project lifecycles.
+I'm a 4th-year Computer Engineering student at Universidad de La Sabana with a focus on Data Analytics. I have experience with Big Data tools such as Prefect, ETL pipelines, Grafana, and Dash, and I use Python libraries like NumPy and Pandas for data processing. I also work with Power BI for data visualization.
 
-As a skilled Product Manager, I excel in software project management, leading teams to successfully meet goals and deliver high-quality results.
 
-I have expertise in mobile application development using Android Studio and proficiency in programming languages such as Kotlin, Java, HTML5, and CSS. My knowledge extends to software architecture and design, utilizing tools like Spring Boot, Docker, and RabbitMQ. I am also experienced in database management with platforms such as MySQL, SQL Server, Firebase, and Oracle Cloud Infrastructure (OCI).
-
-I am also knowledgeable in cybersecurity principles, ensuring secure and robust software solutions.
+As a full stack developer, I integrate backend and frontend technologies with a strong understanding of database management (MySQL, SQL Server, Firebase, OCI) and cloud infrastructure using Google Cloud and AWS. Additionally, I use n8n to automate processes and optimize workflow efficiency.
